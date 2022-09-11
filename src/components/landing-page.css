@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.home{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.home .head-1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.home .head-1  .text--1{
+    color: white;
+    font-size: 3.5em;
+    line-height: 60px;
+    padding-left: 40px;
+    padding-top:30px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-weight: 600;
+
+}
+.home .head-1  .text--1 a{
+    font-weight: 650;
+
+}
+.home .head-1  .text--1 hr{
+    width: 20%;
+    height: 5px;
+    background-color: #e7895e;
+     margin-top: 20px;
+     border-width: 0px;
+
+}
+.home .head-1  .text--2{
+    color: white;
+    font-size: 25px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+.home .head-1  .button-getStarted button{
+    color: white;
+    width: 20%;
+    border: 1px white solid;
+    margin: 40px;
+    font-size: 23px;
+    padding: 10px;
+    background-color:#E7895E ;
+    font-weight: bold;
+}
+.text--1 .village{
+    font-size: 1em;
+    color: #E7895E;
+}
+
+.section1 , .section-1{
+    width: 100% ;
+}
+.section2 , .section-2{
+    width: 100% ;
+}
+.section3, .section-3{
+    width: 100% ;
+}
+.section {
+    position: relative;
+  }
+  .section button{
+        position: absolute;
+        top: 67%;
+        left: 14.5%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #e7895e;
+        color: white;
+        font-size: 30px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      
+  }
+  .section button:hover{
+    background-color: #ffa175;
+}
+  .section-2 button{
+    position: absolute;
+        top: 70%;
+        left: 19%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: #e7895e;
+        color: white;
+        font-size: 30px;
+        padding: 12px 24px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+  }
+  .section-3 button{
+        left: 17%;
+       
+  }

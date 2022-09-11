@@ -1,0 +1,129 @@
+body{
+    font-family: Montserrat;
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+.blogContainer{
+    margin: 30px;
+    
+}
+.blogpage_container{
+    border-radius: 20px;
+    padding: 30px;
+    float: left;
+    font-size: 20px;
+    background-color: rgb(31, 31, 31);
+    margin-bottom: 10px;
+}
+.blogpageImage img{
+    float: left;
+    height:300px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.blogpageImage{
+    float: left;
+    width: 39%;
+    margin-right: 20px;
+}
+.rect1{
+    margin-top: 13px;
+    margin-right: 5px;
+    height:47px;
+    width:5px;
+    background-color: #e7895e;
+    float:left;
+}
+.blogDetails{
+    background-color: rgb(35, 35, 35);
+    width: 58.5%;
+    height: 300px;
+    float: left;
+    border-radius: 20px;
+}
+.blogpageName{
+    float: left;
+    padding: 30px;
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    text-transform: uppercase;
+}
+.blogpageCreatedBy{
+    text-transform: none;
+    color: rgb(80, 80, 80);
+    text-align: right;
+    margin-right: 20px;
+    }
+.blogpageLocation{
+    padding-top: 105px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e7895e;
+
+}
+.famous h1{
+    margin-left: 30px;
+    padding: 5px;
+
+    font-weight: 600;
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+    width: 130px;
+    background-color: #e7895e;
+    margin-bottom: 10px;
+}
+.blogpageFamousFor{
+margin-left: 50px;
+    color: white;
+}
+
+.blogpageText{
+    width:100%;
+    margin-top: 20px;
+    font-size: 120%;
+    padding: 20px;
+    color: rgb(197, 197, 197);
+    border-radius: 20px;
+    background-color: rgb(35, 35, 35);
+}
+.visitinghead{
+    margin: 20px;
+    margin-left: 25px;
+}
+.rect2{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 28px;
+    height:34px;
+    width:5px;
+    background-color: #e7895e;
+    float:left;
+}
+.visiting_container{
+    padding: 20px;
+    background-color: rgb(35, 35, 35);
+    float:left;
+    margin: 1.5%;
+    width: 30%;
+    height: 21%;
+    border-radius: 10px;
+}
+.placeImage img{
+    border-radius: 10px;
+    width:100%;
+    height:200px;
+    object-fit: cover;
+    margin-bottom: 5px;
+    /* border-bottom: 4px solid rgb(203, 203, 203); */
+}
+.placeName{
+    margin:0 0 5px 5px;
+    float: left;
+    font-size: 120%;
+    font-weight: 600;
+}

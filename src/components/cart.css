@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.shop{
+    margin: auto;
+}
+.item{
+    width: 95%;
+    padding: 10px;
+    background-color: rgba(52, 52, 52, 0.805);
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 20px;
+    border-left: 10px solid #e7895e;
+    border-right: 10px solid #e7895e;
+    box-shadow: 100px;
+    box-shadow: 0 0 20px black;
+    float: left;
+   
+}
+
+.name{
+    font-family:monospace;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 5px;
+    float: left;
+    text-align: left;
+    width: 35%;
+}
+
+.clear{
+    clear: both;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 25px;
+    float: left;
+    text-align: right;
+    width: 30%;
+    float: left;
+}
+
+.quantity{
+    float: left;
+    text-align: center;
+    width: 35%;
+}
+
+input[type = 'Number' ]{
+    border-radius: 2px;
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.remove{
+    background-color: inherit;
+    border: 2px solid #8d5f4b;
+    padding: 5px;
+    color: #e7895e;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: monospace;
+    margin: 5px;
+}
+
+.remove:hover{
+    cursor: pointer;
+    background-color: #e7895e;
+    color: white;
+    border: 2px solid #e7895e;
+    text-emphasis: add;
+}
+
+.fn{
+    font-family: monospace;
+    border: 2px solid #8d5f4b;
+    background-color: inherit;
+    color: #e7895e;
+    font-size: x-large;
+    font-weight: bolder;
+    width: 40px;
+    height:35px;
+    padding: 2px;
+}
+
+.fn:hover{
+    cursor: pointer;
+    background-color: #e7895e;
+    color: white;
+    border: 3px solid #e7895e;
+    text-emphasis: add;
+}
+
+#minus{
+    border-radius:20px 0px 0px 20px;
+}
+
+#plus{
+    border-radius:0px 20px 20px 0px;
+}
+
+
+#shop{
+    color: white;
+    font-family:sans-serif;
+    text-align: center;
+    padding: 10px;
+    background-color:inherit;
+  }
+  #shop::after{
+    content: '';
+    position: absolute;
+    left: 48%;
+    display: inline-block;
+    height: 1.3em;
+    width: 5%;
+    border-bottom: 3px solid #e7895e;
+    
+  }
+
+  input[type='Number']{
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    border: 1px solid grey;
+    padding: 5px;
+    margin:10px 0px 10px 0px;
+    font-family: monospace;
+    width: min-content;
+    background-color: rgba(43, 42, 42, 0.836);
+    font-weight: bolder;
+    width: 100px;
+
+}
+
+#total{
+    background-color: crimson;
+    font-size: xx-large;
+    font-weight: bolder;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: right;
+    width: 95%;
+    margin: 10px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px black;
+}

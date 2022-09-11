@@ -3,19 +3,19 @@
 git clone https://github.com/pradoshsahoo/VIKASHFE \
 cd VIKASHFE\
 npm install\
-npm start\
+npm start
 
 2.Create another folder in VS code\
 git clone https://github.com/pradoshsahoo/VikashBlog-server \
 cd VikashBlog-server\
 npm install\
-nodemon\
+nodemon
 
 3.Create another folder in VS code\
 git clone https://github.com/pradoshsahoo/VikashProductsServices-server \
 cd VikashProductsServices-server\
 npm install\
-nodemon\
+nodemon
 
 
 Make sure you are running all 3 folders simultaneously

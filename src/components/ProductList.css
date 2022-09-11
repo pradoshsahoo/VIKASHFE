@@ -101,7 +101,8 @@
   margin: auto;
 }
 
-.Description{
+.Description h3{
+  font-weight:400;
   margin: 2px;
   font-size: large;
   color: white;
